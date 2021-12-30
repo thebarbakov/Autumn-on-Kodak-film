@@ -1,0 +1,36 @@
+.card__music {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+    padding: 5px;
+}
+
+.card__music_artist {
+    color: white;
+    font-size: 25px;
+}
+
+.t18 {
+    font-size: 18px;
+}
+.card__music_name {
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+.card__music_omyt {
+    background-image: url(../../../images/covers/omyt.jpeg);
+}
+
+.card__music_sneg {
+    background-image: url(../../../images/covers/cosm.jpeg);
+}
+
+.card__music_onhold {
+    background-image: url(../../../images/covers/onhold.jpeg);
+}
