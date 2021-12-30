@@ -13,6 +13,10 @@
     color: white;
     font-size: 25px;
 }
+
+.t18 {
+    font-size: 18px;
+}
 .card__music_name {
     font-weight: bold;
     color: white;
@@ -21,4 +25,12 @@
 
 .card__music_omyt {
     background-image: url(../../../images/covers/omyt.jpeg);
+}
+
+.card__music_sneg {
+    background-image: url(../../../images/covers/cosm.jpeg);
+}
+
+.card__music_onhold {
+    background-image: url(../../../images/covers/onhold.jpeg);
 }
