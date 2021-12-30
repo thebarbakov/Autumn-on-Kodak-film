@@ -1,0 +1,31 @@
+.description {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    flex-direction: column;
+    animation: appearing 2.5s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+    width: 100vw;
+}
+
+@media screen and (min-width: 960px) {
+    .description {
+        width: 70%;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: flex-start;
+    }
+}
+
+@keyframes appearing {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

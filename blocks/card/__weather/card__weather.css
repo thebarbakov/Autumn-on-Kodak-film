@@ -1,0 +1,68 @@
+.card__weather {
+    width: 45%;
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.card__weather__statusi {
+    display: flex;
+    width: 45%;
+    object-fit: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card__weather__temperature {
+    display: flex;
+    width: 45%;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+.card__weather__statust {
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.card__weather__statusi_sun {
+    background-image: url(../../../images/status/sun.svg);
+}
+
+.card__weather__statusi_rain {
+    background-image: url(../../../images/status/rin.svg);
+}
+
+.card__weather__statusi_snow {
+    background-image: url(../../../images/status/snow.svg);
+}
+
+.card__weather__statusi_cloud {
+    background-image: url(../../../images/status/cld.svg);
+}
+
+.card__weather_sun {
+    background: linear-gradient(90deg, #f598a8, #f6edb2);
+}
+
+.card__weather_rain {
+    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+}
+
+.card__weather_snow {
+    background: linear-gradient(90deg, #b9deed, #efefef);
+}
+
+.card__weather_cloud {
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+
