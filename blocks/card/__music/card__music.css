@@ -14,13 +14,14 @@
     font-size: 25px;
 }
 
-.t18 {
-    font-size: 18px;
-}
 .card__music_name {
     font-weight: bold;
     color: white;
     font-size: 40px;
+}
+
+.t18 {
+    font-size: 18px;
 }
 
 .card__music_omyt {
@@ -33,4 +34,12 @@
 
 .card__music_onhold {
     background-image: url(../../../images/covers/onhold.jpeg);
+}
+
+.card__music_billie {
+    background-image: url(../../../images/covers/billie.jpeg);
+}
+
+.card__music_laud {
+    background-image: url(../../../images/covers/laud.jpeg);
 }
