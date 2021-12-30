@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Autumn on Kodak film">
+  <meta name="keywords" content="Autumn, on, kodak, film">
+  <meta name="author" content="Yaroslav Barbakov">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+  <link rel="stylesheet" href="./pages/main.css">
+  <title>Autumn on Kodak film</title>
+</head>
+<body class="page">
+  <section class="header">
+    <img class="header__logo" src="images/logo_white.svg">
+  </section>
+  <section class="description">
+    <a data-fancybox="single" data-src="./images/photos/09.10.2021.jpg">
+      <img class="photo" src="./images/photos/09.10.2021.jpg">
+    </a>
+    <div class="card">
+      <div class="card__weather card__weather_sun">
+        <div class="card__weather__statusi card__weather__statusi_sun"></div>
+        <a class="card__weather__temperature">+7</a>
+        <a class="card__weather__statust">Ясно</a>
+      </div>
+      <div class="card__music card__music_blood">
+        <a class="card__music_artist">Blood Cultures</a>
+        <a class="card__music_name t14">Keeps Bringing Me Back</a>
+        <audio class="card__control-music" src="./music/blood.mp3" autoplay="autoplay" type="audio/mp3" autoplay="autoplay" controls="controls"></audio>
+      </div>
+      <a class="card__text_main">Ночь. Итальянский ресторан. Церковь.</a>
+      <a class="card__text_date"> 09.10.2021</a>
+    </div>
+  </section>
+  <section class="footer">
+    <p>Happy New 2022 Year!</p>
+    <p>Warm Regard, Y</p>
+  </section>
+  <script type="module">
+    import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.esm.js";
+  </script>
+</body>
+</html>

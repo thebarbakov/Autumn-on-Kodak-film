@@ -24,6 +24,15 @@
     font-size: 18px;
 }
 
+.t12 {
+    font-size: 12px;
+}
+
+.t14 {
+    font-size: 14px;
+}
+
+
 .card__music_omyt {
     background-image: url(../../../images/covers/omyt.jpeg);
 }
@@ -43,3 +52,32 @@
 .card__music_laud {
     background-image: url(../../../images/covers/laud.jpeg);
 }
+
+.card__music_ozera {
+    background-image: url(../../../images/covers/ozera.jpeg);
+}
+
+.card__music_blood {
+    background-image: url(../../../images/covers/blood.jpeg);
+}
+
+.card__music_blue {
+    background-image: url(../../../images/covers/blue.jpeg);
+}
+
+.card__music_places {
+    background-image: url(../../../images/covers/places.jpeg);
+}
+
+.card__music_heart {
+    background-image: url(../../../images/covers/heart.jpeg);
+}
+
+.card__music_sirotkin {
+    background-image: url(../../../images/covers/sirotkin.jpeg);
+}
+
+.card__music_aigel {
+    background-image: url(../../../images/covers/aigel.jpeg);
+}
+
