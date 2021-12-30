@@ -4,5 +4,6 @@
     margin-top: 20px;
     font-style: italic;
     font-size: 20px;
+    -webkit-justify-content: right;
     justify-content: right;
 }
