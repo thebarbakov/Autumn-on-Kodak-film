@@ -1,6 +1,5 @@
-.card__text_date {
+.card__text_main {
     width: 100%;
     display: flex;
     margin-top: 20px;
-    justify-content: flex-end;
 }
