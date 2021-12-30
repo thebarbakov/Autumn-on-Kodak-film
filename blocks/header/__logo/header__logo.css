@@ -8,6 +8,11 @@
 
 }
 
+.header__logo_size_big {
+    width: 80%;
+    max-width: 700px;
+}
+
 @keyframes appearing {
     from {
         opacity: 0;

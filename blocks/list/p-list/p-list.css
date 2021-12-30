@@ -1,0 +1,18 @@
+.p-list {
+    display: grid;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 2vh 2vw;
+}
+
+@media screen and (min-width: 960px) {
+    .p-list {
+        height: 60vh;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}

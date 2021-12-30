@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+    margin-top: 15vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    justify-content: center;
+    animation: appearing 2.5s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+@media screen and (min-width: 960px) {
+    .list {
+        margin-top: 30vh;
+    }
+}
+
+
+@keyframes appearing {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
